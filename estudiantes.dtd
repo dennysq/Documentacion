@@ -1,0 +1,16 @@
+<!DOCTYPE Estudiante
+[
+<!ELEMENT Estudiante (cedula,nombre,masculino,fechaNacimiento?,ingresos?,asignaturas*)>
+<!ELEMENT cedula (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT masculino (#PCDATA)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT ingresos(#PCDATA)>
+<!ELEMENT asignaturas (codigo,nombre,creditos,aulas*)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT creditos(#PCDATA)>
+<!ELEMENT aulas (codigo,ubicacion?)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+]>

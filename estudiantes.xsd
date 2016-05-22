@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Estudiante">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="cedula" type="xs:string"/>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="nombre" type="xs:boolean"/>
+      <xs:element name="fechaNacimiento" type="xs:date"/>
+      <xs:element name="ingresos" type="xs:decimal"/>
+      <xs:element name="asignaturas" >
+      	<xs:complexType>
+    		<xs:sequence>
+          <xs:element name="codigo" type="xs:integer"/> 
+          <xs:element name="nombre" type="xs:string"/> 
+          <xs:element name="creditos" type="xs:integer"/> 
+          
+				      <xs:element name="aulas">
+				      	<xs:complexType>
+				    		  <xs:sequence>
+
+								    <xs:element name="codigo" type="xs:string"/>
+								    <xs:element name="ubicacion" type="xs:string"/>
+				    		  </xs:sequence>
+</xs:complexType>
+				      </xs:element>
+    		</xs:sequence>
+</xs:complexType>
+          </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

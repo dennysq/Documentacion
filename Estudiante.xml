@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone= "yes"?>
+<!DOCTYPE Estudiante SYSTEM "estudiantes.dtd">
+<Estudiante xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="estudiantes.xsd">
+<cedula>180144898e</cedula>
+<nombre> Xavier</nombre>
+<masculino> true </masculino>
+<fechaNacimiento>1992-03-23</fechaNacimiento>
+<ingresos>500.34</ingresos>
+<asignaturas>
+	<asignatura>
+		<codigo>2</codigo>
+		<nombre>algebra</nombre>
+		
+		<aulas>
+			<aula>
+				<codigo>B310</codigo>
+				<ubicacion>Bloque B</ubicacion>
+			</aula>
+		</aulas>
+	</asignatura>
+</asignaturas>
+
+</Estudiante>
